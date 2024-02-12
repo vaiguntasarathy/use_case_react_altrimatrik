@@ -1,0 +1,39 @@
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.logo {
+  padding: 20px;
+  border: 2px solid;
+  margin: 10px;
+  cursor: pointer;
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: center;
+}
+form div {
+  margin-bottom: 10px;
+  width: 50%;
+  margin-bottom: 10px;
+}
+form label {
+  display: inline-block;
+  width: 160px;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+form input {
+  padding: 5px;
+  width: 170px;
+}
+
+.form-container button {
+  padding: 5px 15px;
+}

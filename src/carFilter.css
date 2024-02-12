@@ -1,0 +1,43 @@
+.carFilter {
+  display: flex;
+  padding: 20px;
+}
+.filter-column {
+  margin-left: 10px;
+  width: 25%;
+}
+.filter-column > div {
+  padding: 10px;
+}
+.car-result {
+  width: 75%;
+}
+
+.filter-column .title {
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.filter-column label {
+  padding-left: 5px;
+}
+
+.car-card {
+  display: flex;
+}
+
+.car-card > div {
+  width: 25%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.budget button {
+  padding: 5px 17px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.filter-column select,
+.filter-column input[type="text"] {
+  width: 70%;
+  height: 30px;
+}
